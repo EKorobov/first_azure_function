@@ -6,7 +6,7 @@
       "type": "httpTrigger",
       "direction": "in",
       "authLevel": "anonymous",
-      "methods": ["get"]
+      "methods": ["get"],
       "route": "first/{id:int}"
     },
     {
